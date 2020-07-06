@@ -1,0 +1,27 @@
+{
+  "name": "webscrap",
+  "version": "1.0.0",
+  "description": "webscrapper to get the daily quote from https://www.brainyquote.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "schedule": "node utils/schedule.js"
+  },
+  "author": "Rudra Kishore",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.4.10",
+    "puppeteer": "^5.0.0"
+  },
+  "keywords": [
+    "webscrapper",
+    "node js",
+    "express",
+    "puppeter"
+  ],
+  "engines": {
+    "node": "12.8.1"
+  }
+}
